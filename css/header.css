@@ -1,0 +1,59 @@
+header ul, header li {
+    display: inline-block;
+}
+
+header li {
+    margin-right: 23px;
+}
+
+header li a:hover {
+    color: #F96900;
+}
+
+
+.header__first-line {
+    display: grid;
+    grid-template-columns: 250px auto;
+    margin-top: 25px;
+}
+
+.header__logo {
+    width: 249px;
+    height: 48px;
+}
+
+.header__contact {
+    justify-self: end;
+    text-align: right;
+}
+
+.header__phone {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+.header__call {
+    font-size: 15px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.header__second-line {
+    margin-top: 40px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 600px auto;
+    position: sticky;
+}
+
+.header__btn {
+    justify-self: end;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}

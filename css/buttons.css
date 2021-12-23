@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+.btn {
+    text-decoration: none;
+    display: flex;
+}
+
+.btn-orange {
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    height: 40px;
+    background: #F96900;
+    border-radius: 1000px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btn-orange:hover {
+    background-color: rgb(232, 97, 0);
+    color: white;
+}
+
+.btn-orange-dark {
+    background: #F96900;
+}
+
+.btn-orange-light {
+    background: #FFF0E6;
+    color: #D15700;
+}
+
+.container {
+    overflow-y: hidden;
+}
+
